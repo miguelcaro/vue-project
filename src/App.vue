@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { LinkComponent } from 'macp-components/vue';
+import VueComponent from './components/VueComponent.vue'
 </script>
 
 <template>
@@ -11,9 +11,7 @@ import { LinkComponent } from 'macp-components/vue';
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <Link href="https://vuejs.org/">
-    Link Vue
-  </Link>
+  <VueComponent />
 </template>
 
 <style scoped>
